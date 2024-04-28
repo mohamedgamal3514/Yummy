@@ -1,0 +1,79 @@
+/* General Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0D0D0D;
+    overflow: hidden;
+}
+
+::placeholder {
+    color: #ffffff83 !important;
+}
+
+.custom_width {
+    width: 100%;
+}
+
+/* --------------------------------------------------Start Loader-------------------------------------------------- */
+.loading{
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner {
+    width: 11.2px;
+    height: 11.2px;
+    border-radius: 11.2px;
+    box-shadow: 28px 0px 0 0 rgba(71, 75, 255, 0.2), 22.7px 16.5px 0 0 rgba(71, 75, 255, 0.4), 8.68px 26.6px 0 0 rgba(71, 75, 255, 0.6), -8.68px 26.6px 0 0 rgba(71, 75, 255, 0.8), -22.7px 16.5px 0 0 #474bff;
+    animation: spinner-b87k6z 1s infinite linear;
+}
+
+@keyframes spinner-b87k6z {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* --------------------------------------------------End Loader-------------------------------------------------- */
+
+/* --------------------------------------------------Start Navbar-------------------------------------------------- */
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.icons,
+.nav_footer p,
+.nav_footer i {
+    font-size: 0.8rem;
+}
+
+/* --------------------------------------------------End Navbar-------------------------------------------------- */
+
+/* --------------------------------------------------Start Row Style-------------------------------------------------- */
+
+.layer {
+    transform: translateY(101%);
+    transition: transform 0.5s;
+}
+
+
+.inner:hover .layer {
+    transform: translateY(0);
+}
+
+/* --------------------------------------------------End Row Style-------------------------------------------------- */

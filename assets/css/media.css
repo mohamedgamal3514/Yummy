@@ -1,0 +1,18 @@
+/* ----------small secreen---------- */
+@media (min-width: 640px) {}
+
+/* ----------medium secreen---------- */
+@media (min-width: 768px) {
+    .custom_width {
+        width: 70%;
+    }
+}
+
+/* ----------large secreen---------- */
+@media (min-width: 1024px) {}
+
+/* ----------x large secreen---------- */
+@media (min-width: 1280px) {}
+
+/* ----------xx large secreen---------- */
+@media (min-width: 1536px) {}

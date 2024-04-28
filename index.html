@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- -----------link FavIcon -------------- -->
+    <link rel="icon" href="./assets/images/favicon.ico" />
+    <!-- -----------link font Awesome-------------- -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- -----------link google fonts-------------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <!-- -----------link Bootstrap css-------------- -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- -----------link css-------------- -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- -----------link css media-------------- -->
+    <link rel="stylesheet" href="./assets/css/media.css" />
+    <title>Yummy - JS Exam</title>
+</head>
+
+<body class="bg-black">
+    <!-- Start Loader -->
+    <div class="loading">
+        <div class="spinner"></div>
+    </div>
+    <!-- End Loader -->
+
+    <!-- Start NavBar -->
+    <nav class="nav z-3 position-fixed vh-100 bg-black">
+        <div class="nav_bar p-4 d-flex flex-column justify-content-between">
+            <div class="nav_links">
+                <ul class="list-unstyled text-white position-relative fs-5">
+                    <li class="pb-2 position-relative cursor_pointer" id="search_link">Search</li>
+                    <li class="pb-2 position-relative cursor_pointer" id="cat_link">Categories</li>
+                    <li class="pb-2 position-relative cursor_pointer" id="area_link">Area</li>
+                    <li class="pb-2 position-relative cursor_pointer" id="ingredients_link">Ingredients</li>
+                    <li class="pb-2 position-relative cursor_pointer" id="contact_link">Contact Us</li>
+                </ul>
+            </div>
+
+            <div class="nav_footer">
+                <ul class="list-unstyled text-white d-flex gap-3 m-0">
+                    <li>
+                        <i class="fa fa-brands fa-facebook-f cursor_pointer"></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-brands fa-x-twitter cursor_pointer"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-globe cursor_pointer"></i>
+                    </li>
+                </ul>
+                <p class="text-white">Copyright Â© 2019 All Rights</p>
+            </div>
+        </div>
+        <div class="logo bg-white d-flex align-items-center justify-content-between flex-column py-3 px-2">
+            <a href=""><img src="./assets/images/logo.png" alt=""></a>
+            <i class="fa fa-solid fa-bars fs-2 cursor_pointer" id="nav_btn"></i>
+            <div class="icons d-flex justify-content-center align-content-center flex-column gap-2">
+                <i class="fa-solid fa-globe cursor_pointer"></i>
+                <i class="fa-solid fa-share-nodes cursor_pointer"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- End NavBar -->
+
+
+    <section id="searchMeals">
+    </section>
+
+    <!-- Start Row To Display Content -->
+    <section class=" overflow-hidden px-5">
+        <div class="container">
+            <div class="row py-5 g-4" id="rowData">
+            </div>
+        </div>
+    </section>
+    <!-- End Row To Display Content  -->
+
+
+
+
+    <!-- -----------link Bootstrap JS-------------- -->
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <!-- -----------link jQuery-------------- -->
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <!-- -----------link Main JS-------------- -->
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
